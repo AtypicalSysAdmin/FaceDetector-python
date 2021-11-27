@@ -7,6 +7,7 @@ pip install --upgrade pip
 pip install opencv-python
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 for <class 'cv2.CascadeClassifier'> returned a result with an error set
 pip install opencv-contrib-python
 
