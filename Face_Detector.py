@@ -6,7 +6,7 @@ trained_face_data= cv2.CascadeClassifier(cv2.data.haarcascades +'haarcascade_fro
 #choose an image to detect face in
 # img= cv2.imread ('IMG_3332.JPG')
 #getting default webcam video, args: index of the camera, 0 is the default cam, or name of a video file
-cap = cv2.VideoCapture('Alison.mp4')
+cap = cv2.VideoCapture(0)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT) + 0.5)
 size = (width, height)
@@ -37,18 +37,3 @@ cap.release()
 out.release()
 cv2.destroyAllWindows()
 
-# Draw rectangles, args:  src img, coordinates, RGB color of the rectangle, the thickness of the rectangle
-
-
-
-# print(face_coordinates)
-
-
-
-# cv2.imshow('Clever programer', grayscaled_img)
-# paueses until a key is pressed
-# cv2.waitKey()
-
-
-
-# print("Code ran completely")
