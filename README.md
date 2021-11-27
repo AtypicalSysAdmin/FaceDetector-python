@@ -10,9 +10,8 @@ pip install opencv-contrib-python
 
 ================================================================
 
-go to https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
+reference for haarcascade file https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
 
-download the file
 =================================================================
 
 get some face pics>turn them black
